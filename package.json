@@ -1,0 +1,39 @@
+{
+  "name": "has-regex-chars",
+  "description": "Returns true if a string has regular expression special characters.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/has-regex-chars",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/has-regex-chars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/has-regex-chars/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/has-regex-chars/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "regex-cache": "^0.3.0",
+    "regex-chars": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": []
+}
